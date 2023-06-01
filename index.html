@@ -7,7 +7,6 @@
 
   <link rel="stylesheet" href="./assets/font/cardo/cardo-400.css">
   <link rel="stylesheet" href="./assets/font/inter/inter-400.css">
-  <link rel="stylesheet" href="./css/base.css">
   <link rel="stylesheet" href="./css/main.css">
 
   <title>The Author's Book</title>
@@ -18,32 +17,30 @@
   <div class="container">
 
     <nav class="nav">
-      <div class="nav-social">
+      <div class="nav__social">
         <div class="logo">
-          <img class="logo__image" src="#" alt="The Aythor's Book"></img>
-          <span class="logo__text">Pages</span>
+          <img class="logo-img" src="#" alt="The Aythor's Book"></img>
+          <span class="logo-text">Pages</span>
         </div>
 
-        <div class="header__social">
-          <a class="link-facebook" href="#"></a>
-          <a class="link-twitter" href="#"></a>
-          <a class="link-LinkedIn" href="#"></a>
+        <div class="social">
+          <a class="social__link" href="#"></a>
+          <a class="social__link" href="#"></a>
+          <a class="social__link" href="#"></a>
         </div>
       </div>
 
-      <div class="nav-page">
-        <ul class="nav__list list">
-          <li class="list__item"><a class="list__link" href="#">Home</a></li>
-          <li class="list__item"><a class="list__link" href="#">About</a></li>
-          <li class="list__item"><a class="list__link" href="#">Page</a></li>
-          <li class="list__item"><a class="list__link" href="#">Contact Us</a></li>
-          <li class="list__item"><a class="list__link" href="#"><img class="list__link-icon" src="#" alt="icon"></a></li>
-        </ul>
+      <div class="nav__page">
+        <a class="nav-page__link" href="#">Home</a>
+        <a class="nav-page__link" href="#">About</a>
+        <a class="nav-page__link" href="#">Pages</a>
+        <a class="nav-page__link" href="#">Contact Us</a>
+        <a class="nav-page__link" href="#"><img class="nav-page__link-icon" src="#" alt="icon"></a>
         <button class="button button--primary" type="button">Order Today</button>
       </div>
     </nav>
 
-    <div class="flex">
+    <div class="intro-wrap">
       <div class="intro">
         <div class="intro__header">
           <h1 class="intro__title">Your Books From The Best Writer.</h1>
@@ -56,14 +53,14 @@
         </div>
 
         <div class="intro__footer">
-          <ul class="intro__list list">
-            <li class="list__item">Pages:
+          <ul class="intro__list">
+            <li class="intro__item">Pages:
               <span class="intro__text">250 pages</span>
             </li>
-            <li class="list__item">Lenght:
+            <li class="intro__item">Lenght:
               <span class="intro__text">10 hours</span>
             </li>
-            <li class="list__item">Rating:
+            <li class="intro__item">Rating:
               <span class="intro__text">4.5/5 (305 ratings)</span>
             </li>
           </ul>
@@ -79,11 +76,11 @@
 </header>
 
 <main class="main">
-  <section class="section books">
+  <section class="books">
     <div class="container">
-      <h2 class="about__title">The Author's Book</h2>
+      <h2 class="books__title">The Author's Book</h2>
       <hr>
-      <div class="flex">
+      <div class="books-wrap">
         <article class="book">
           <div class="book__image">
             <img class="image" src="#" alt="book 'Atomic One's'">
@@ -92,7 +89,7 @@
             <h3 class="book__title">Atomic One's</h3>
             <p class="book__cost">$ 13.84 USD</p>
             <p class="book__text">As the book contains theoretical content as well as solved questions.</p>
-            <p class="book__type">Printed Book</p>
+            <p class="book__extra">Printed Book</p>
             <button class="button button--secondary" type="button">Order Now</button>
           </div>
         </article>
@@ -105,7 +102,7 @@
             <h3 class="book__title">The Dark Light</h3>
             <p class="book__cost">$ 86.11 USD</p>
             <p class="book__text">As the book contains theoretical content as well as solved questions.</p>
-            <p class="book__type">Printed Book</p>
+            <p class="book__extra">Printed Book</p>
             <button class="button button--secondary" type="button">Order Now</button>
           </div>
         </article>
@@ -113,9 +110,9 @@
     </div>
   </section>
 
-  <section class="section about">
+  <section class="about">
     <div class="container">
-      <div class="flex">
+      <div class="about-wrap">
         <div class="about__image">
           <img class="image" src="" alt="Author">
         </div>
@@ -145,11 +142,11 @@
     </div>
   </section>
 
-  <section class="section partners">
+  <section class="partners">
     <div class="container">
       <h2 class="partners__title">Trusted By The Best</h2>
       <hr>
-      <div class="flex">
+      <div class="company-wrap">
         <article class="company">
           <div class="company__image">
             <img class="image" src="" alt="">
@@ -185,13 +182,15 @@
     </div>
   </section>
 
-  <section class="section get-copy-book">
+  <section class="get-copy-book">
     <div class="container">
-      <div class="flex">
-        <h2 class="get-copy-book__title">Get Book Copy Today!</h2>
-        <hr>
-        <p class="get-copy-book__text">We believe that bookstores are essential to a healthy culture. They’re where authors can connect with readers.</p>
-        <button class="button button--secondary" type="button">Order Today</button>
+      <div class="get-copy-book-wrap">
+        <div class="get-copy-book__intro">
+          <h2 class="get-copy-book__title">Get Book Copy Today!</h2>
+          <hr>
+          <p class="get-copy-book__text">We believe that bookstores are essential to a healthy culture. They're where authors can connect with readers.</p>
+          <button class="button button--secondary" type="button">Order Today</button>
+        </div>intro
   
         <div class="get-copy-book__image">
           <img class="image" src="" alt="">
@@ -200,11 +199,11 @@
     </div>
   </section>
 
-  <section class="section description">
+  <section class="description">
     <div class="container">
       <h2 class="description__title">What Will You Learn?</h2>
       <hr>
-      <div class="flex">
+      <div class="description-wrap">
         <div class="description__learn">
           <article class="learn">
             <p class="learn__number">01</p>
@@ -234,7 +233,7 @@
     </div>
   </section>
 
-  <section class="section what-training">
+  <section class="what-training">
     <div class="container">
       <h2 class="what-training__title">Enhance knowledge & Vision</h2>
       <hr>
@@ -243,10 +242,10 @@
           <h3 class="chapter__title">Chapter-1 Get Started Intro</h3>
           <p class="chapter__text">You can double your knowledge by reading this ever needed book that can last a lifetime.</p>
           <ul class="chapter__list">
-            <li class="list__item">Pages:
+            <li class="chapter__item">Pages:
               <span class="chapter__text">106 pages</span>
             </li>
-            <li class="list__item">Lenght:
+            <li class="chapter__item">Lenght:
               <span class="chapter__text">2 hours</span>
             </li>
           </ul>
@@ -256,11 +255,11 @@
           <h3 class="chapter__title">Chapter-2 The Roman Culture</h3>
           <p class="chapter__text">It will help to improve your life career with the perfect and needed knowledge about your life.</p>
           <ul class="chapter__list">
-            <li class="list__item">Pages:
-              <span class="list__text">180 pages</span>
+            <li class="chapter__item">Pages:
+              <span class="chapter__text">180 pages</span>
             </li>
-            <li class="list__item">Lenght:
-              <span class="list__text">3 hours</span>
+            <li class="chapter__item">Lenght:
+              <span class="chapter__text">3 hours</span>
             </li>
           </ul>
         </article>
@@ -269,11 +268,11 @@
           <h3 class="chapter__title">Chapter-3 How They Servived</h3>
           <p class="chapter__text">We wanted to create an easy, convenient way for you to get your books & support.</p>
           <ul class="chapter__list">
-            <li class="list__item">Pages:
-              <span class="list__text">250 pages</span>
+            <li class="chapter__item">Pages:
+              <span class="chapter__text">250 pages</span>
             </li>
-            <li class="list__item">Lenght:
-              <span class="list__text">4 hours</span>
+            <li class="chapter__item">Lenght:
+              <span class="chapter__text">4 hours</span>
             </li>
           </ul>
         </article>
@@ -282,11 +281,11 @@
           <h3 class="chapter__title">Chapter-4 The End Of Romans</h3>
           <p class="chapter__text">Promote your book via Pages shop to support your writing & reading career.</p>
           <ul class="chapter__list">
-            <li class="list__item">Pages:
-              <span class="list__text">175 pages</span>
+            <li class="chapter__item">Pages:
+              <span class="chapter__text">175 pages</span>
             </li>
-            <li class="list__item">Lenght:
-              <span class="list__text">3 hours</span>
+            <li class="chapter__item">Lenght:
+              <span class="chapter__text">3 hours</span>
             </li>
           </ul>
         </article>
@@ -300,20 +299,20 @@
     </div>
   </section>
 
-  <section class="section feedback">
+  <section class="feedback">
     <div class="container">
       <div class="flex">
         <div class="feedback__intro">
           <h2 class="feedback__title">Words From Our Readers</h2>
           <hr>
-          <p class="feedback__text">We believe that bookstores are essential to a healthy culture. They’re where authors can connect with readers, where we discover new writers, where children get hooked on the thrill of reading that can last a lifetime.</p>
+          <p class="feedback__text">We believe that bookstores are essential to a healthy culture. They're where authors can connect with readers, where we discover new writers, where children get hooked on the thrill of reading that can last a lifetime.</p>
           <div class="feedback__rating">
             <img class="image" src="" alt=""> <span class="rating">(4.8/5)</span>
             <p class="rating__text">Overall Customer Ratings</p>
           </div>
         </div>
 
-        <div class="feedback-readers">
+        <div class="feedback__readers">
           <article class="reader">
             <div class="reader__header">
               <img class="image" src="" alt="">
@@ -360,7 +359,7 @@
     </div>
   </section>
 
-  <section class="section source">
+  <section class="source">
     <div class="container">
       <h2 class="source__title">Articles & Resources</h2>
       <hr>
@@ -398,7 +397,7 @@
             <img class="image" src="" alt="">
           </div>
           <div class="card__body">
-            <p class="card__text--accent">Words which don’t look even slightly believable</p>
+            <p class="card__text--accent">Words which don't look even slightly believable</p>
             <p class="card__text">Podcasting operational change management inside of workflows to establish a framework.</p>
           </div>
           <div class="card__footer">
@@ -410,7 +409,7 @@
     </div>
   </section>
 
-  <section class="section updates">
+  <section class="updates">
     <div class="container">
       <h2 class="updates__title">Get The Best Updates</h2>
       <hr>
@@ -432,10 +431,10 @@
           <span class="logo__text">Pages</span>
         </div>
         <div class="social">
-          <a class="link-facebook" href="#"></a>
-          <a class="link-twitter" href="#"></a>
-          <a class="link-Linkedin" href="#"></a>
-          <a class="link-instagram" href="#"></a>
+          <a class="social__link" href="#"></a>
+          <a class="social__link" href="#"></a>
+          <a class="social__link" href="#"></a>
+          <a class="social__link" href="#"></a>
         </div>
       </div>
 
