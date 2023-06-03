@@ -14,7 +14,7 @@
 <body class="page">
   
 <header class="header">
-  <div class="container">
+  <div class="container wrapper">
 
     <nav class="nav">
       <div class="nav__social">
@@ -30,37 +30,37 @@
         </div>
       </div>
 
-      <div class="nav__page">
-        <a class="nav-page__link" href="#">Home</a>
-        <a class="nav-page__link" href="#">About</a>
-        <a class="nav-page__link" href="#">Pages</a>
-        <a class="nav-page__link" href="#">Contact Us</a>
-        <a class="nav-page__link" href="#"><img class="nav-page__link-icon" src="#" alt="icon"></a>
-        <button class="button button--primary" type="button">Order Today</button>
+      <div class="nav__site">
+        <a class="nav-site__link" href="#">Home</a>
+        <a class="nav-site__link" href="#">About</a>
+        <a class="nav-site__link" href="#">Pages</a>
+        <a class="nav-site__link" href="#">Contact Us</a>
+        <a class="nav-site__link" href="#"><img class="nav-site__link-icon" src="#" alt="icon"></a>
+        <a class="link link--primary" href="#">Order Today</a>
       </div>
     </nav>
 
-    <div class="intro-wrap">
-      <div class="intro">
+    <div class="intro">
+      <div class="intro__info">
         <div class="intro__header">
           <h1 class="intro__title">Your Books From The Best Writer.</h1>
           <p class="intro__text">We believe that reading books are essential to a healthy culture. They're where authors can connect with readers.</p>
         </div>
 
         <div class="intro__body">
-          <button class="button button--primary" type="button">Order Today</button>
-          <a class="intro__link" href="#">Read Free Demo</a>
+          <a class="link link--primary" href="#">Order Today</a>
+          <a class="link" href="#">Read Free Demo</a>
         </div>
 
         <div class="intro__footer">
           <ul class="intro__list">
-            <li class="intro__item">Pages:
+            <li class="intro__item">Pages:<br>
               <span class="intro__text">250 pages</span>
             </li>
-            <li class="intro__item">Lenght:
+            <li class="intro__item">Lenght:<br>
               <span class="intro__text">10 hours</span>
             </li>
-            <li class="intro__item">Rating:
+            <li class="intro__item">Rating:<br>
               <span class="intro__text">4.5/5 (305 ratings)</span>
             </li>
           </ul>
@@ -80,30 +80,30 @@
     <div class="container">
       <h2 class="books__title">The Author's Book</h2>
       <hr>
-      <div class="books-wrap">
-        <article class="book">
-          <div class="book__image">
+      <div class="wrapper">
+        <article class="card-book">
+          <div class="card-book__image">
             <img class="image" src="#" alt="book 'Atomic One's'">
           </div>
-          <div class="book__info">
-            <h3 class="book__title">Atomic One's</h3>
-            <p class="book__cost">$ 13.84 USD</p>
-            <p class="book__text">As the book contains theoretical content as well as solved questions.</p>
-            <p class="book__extra">Printed Book</p>
-            <button class="button button--secondary" type="button">Order Now</button>
+          <div class="card-book__info">
+            <h3 class="card-book__title">Atomic One's</h3>
+            <p class="card-book__cost">$ 13.84 USD</p>
+            <p class="card-book__text">As the book contains theoretical content as well as solved questions.</p>
+            <p class="card-book__extra">Printed Book</p>
+            <a class="link link--secondary">Order Now</a>
           </div>
         </article>
 
-        <article class="book">
-          <div class="book__image">
+        <article class="card-book">
+          <div class="card-book__image">
             <img class="image" src="#" alt="book 'The Dark Light'">
           </div>
-          <div class="book__info">
-            <h3 class="book__title">The Dark Light</h3>
-            <p class="book__cost">$ 86.11 USD</p>
-            <p class="book__text">As the book contains theoretical content as well as solved questions.</p>
-            <p class="book__extra">Printed Book</p>
-            <button class="button button--secondary" type="button">Order Now</button>
+          <div class="card-book__info">
+            <h3 class="card-book__title">The Dark Light</h3>
+            <p class="card-book__cost">$ 86.11 USD</p>
+            <p class="card-book__text">As the book contains theoretical content as well as solved questions.</p>
+            <p class="card-book__extra">Printed Book</p>
+            <a class="link link--secondary">Order Now</a>
           </div>
         </article>
       </div>
@@ -111,31 +111,29 @@
   </section>
 
   <section class="about">
-    <div class="container">
-      <div class="about-wrap">
-        <div class="about__image">
-          <img class="image" src="" alt="Author">
+    <div class="container wrapper">
+      <div class="about__image">
+        <img class="image" src="" alt="Author">
+      </div>
+
+      <div class="about__info">
+        <h2 class="about__title">About the Author</h2>
+        <hr>
+        <p class="about__text">We believe that bookstores are essential to a healthy culture. They're where authors can connect with readers, where we discover new writers, where children get hooked on the thrill of reading that can last a lifetime.</p>
+        <div class="about__count">
+          <p class="about__text"><span>02</span>Books Published</p>
+          <p class="about__text"><span>4.5</span>User Reviews</p>
+          <p class="about__text"><span>04</span>Best Seller Awards</p>
         </div>
 
-        <div class="about__info">
-          <h2 class="about__title">About the Author</h2>
-          <hr>
-          <p class="about__text">We believe that bookstores are essential to a healthy culture. They're where authors can connect with readers, where we discover new writers, where children get hooked on the thrill of reading that can last a lifetime.</p>
-          <div class="about__count">
-            <p class="about__text"><span>02</span>Books Published</p>
-            <p class="about__text"><span>4.5</span>User Reviews</p>
-            <p class="about__text"><span>04</span>Best Seller Awards</p>
+        <div class="about__contact">
+          <div class="contact__image">
+            <img class="image" src="" alt="QR-code">
           </div>
-
-          <div class="about__contact">
-            <div class="contact__image">
-              <img class="image" src="" alt="QR-code">
-            </div>
-            <div class="contact__info">
-              <p class="contact__name">John Abraham , Ph.d</p>
-              <p class="contact__mail">Mail: johnabraham@gmail.com</p>
-              <p class="contact__phone">Phone: (+2) 123 545 9000</p>
-            </div>
+          <div class="contact__info">
+            <p class="contact__name">John Abraham , Ph.d</p>
+            <p class="contact__mail">Mail: johnabraham@gmail.com</p>
+            <p class="contact__phone">Phone: (+2) 123 545 9000</p>
           </div>
         </div>
       </div>
@@ -146,7 +144,7 @@
     <div class="container">
       <h2 class="partners__title">Trusted By The Best</h2>
       <hr>
-      <div class="company-wrap">
+      <div class="wrapper">
         <article class="company">
           <div class="company__image">
             <img class="image" src="" alt="">
@@ -183,18 +181,16 @@
   </section>
 
   <section class="get-copy-book">
-    <div class="container">
-      <div class="get-copy-book-wrap">
-        <div class="get-copy-book__intro">
-          <h2 class="get-copy-book__title">Get Book Copy Today!</h2>
-          <hr>
-          <p class="get-copy-book__text">We believe that bookstores are essential to a healthy culture. They're where authors can connect with readers.</p>
-          <button class="button button--secondary" type="button">Order Today</button>
-        </div>intro
-  
-        <div class="get-copy-book__image">
-          <img class="image" src="" alt="">
-        </div>
+    <div class="container wrapper">
+      <div class="get-copy-book__intro">
+        <h2 class="get-copy-book__title">Get Book Copy Today!</h2>
+        <hr>
+        <p class="get-copy-book__text">We believe that bookstores are essential to a healthy culture. They're where authors can connect with readers.</p>
+        <a class="link link--secondary">Order Today</a>
+      </div>intro
+
+      <div class="get-copy-book__image">
+        <img class="image" src="" alt="">
       </div>
     </div>
   </section>
@@ -203,7 +199,7 @@
     <div class="container">
       <h2 class="description__title">What Will You Learn?</h2>
       <hr>
-      <div class="description-wrap">
+      <div class="wrapper">
         <div class="description__learn">
           <article class="learn">
             <p class="learn__number">01</p>
@@ -237,7 +233,7 @@
     <div class="container">
       <h2 class="what-training__title">Enhance knowledge & Vision</h2>
       <hr>
-      <div class="flex">
+      <div class="wrapper">
         <article class="chapter">
           <h3 class="chapter__title">Chapter-1 Get Started Intro</h3>
           <p class="chapter__text">You can double your knowledge by reading this ever needed book that can last a lifetime.</p>
@@ -292,7 +288,7 @@
       </div>
 
       <div class="what-training__course">
-        <button class="button button--primary" type="button">Start a 15-Days Free Trail</button>
+        <a class="link link--primary">Start a 15-Days Free Trail</a>
         <p class="what-training__text">Short description about each chapter 
           <a class="what-training__link" href="#"> Have any questions?</a> Contact us</p>
       </div>
@@ -300,109 +296,107 @@
   </section>
 
   <section class="feedback">
-    <div class="container">
-      <div class="flex">
-        <div class="feedback__intro">
-          <h2 class="feedback__title">Words From Our Readers</h2>
-          <hr>
-          <p class="feedback__text">We believe that bookstores are essential to a healthy culture. They're where authors can connect with readers, where we discover new writers, where children get hooked on the thrill of reading that can last a lifetime.</p>
-          <div class="feedback__rating">
-            <img class="image" src="" alt=""> <span class="rating">(4.8/5)</span>
-            <p class="rating__text">Overall Customer Ratings</p>
+    <div class="container wrapper">
+      <div class="feedback__intro">
+        <h2 class="feedback__title">Words From Our Readers</h2>
+        <hr>
+        <p class="feedback__text">We believe that bookstores are essential to a healthy culture. They're where authors can connect with readers, where we discover new writers, where children get hooked on the thrill of reading that can last a lifetime.</p>
+        <div class="feedback__rating">
+          <img class="image" src="" alt=""> <span class="rating">(4.8/5)</span>
+          <p class="feedback__extra">Overall Customer Ratings</p>
+        </div>
+      </div>
+
+      <div class="feedback__readers">
+        <article class="reader">
+          <div class="reader__header">
+            <img class="image" src="" alt="">
+            <div class="reader__info">
+              <p class="reader__name">James Williams</p>
+              <img class="image" src="" alt="">
+            </div>
           </div>
-        </div>
+          <div class="reader__body">
+            <p class="reader__comment"><q>Great Books Collections</q></p>
+            <p class="reader__text">I was searching this book for many years and I was happy that I could find it here.</p>
+          </div>
+        </article>
 
-        <div class="feedback__readers">
-          <article class="reader">
-            <div class="reader__header">
+        <article class="reader">
+          <div class="reader__header">
+            <img class="image" src="" alt="">
+            <div class="reader__info">
+              <p class="reader__name">Chris Adams</p>
               <img class="image" src="" alt="">
-              <div class="reader__info">
-                <p class="reader__name">James Williams</p>
-                <img class="image" src="" alt="">
-              </div>
             </div>
-            <div class="reader__body">
-              <p class="reader__comment"><q>Great Books Collections</q></p>
-              <p class="reader__text">I was searching this book for many years and I was happy that I could find it here.</p>
-            </div>
-          </article>
+          </div>
+          <div class="reader__body">
+            <p class="reader__comment"><q>“ Perfect Response Author”</q></p>
+            <p class="reader__text">I had a question about the book and the author response was great & comfort.</p>
+          </div>
+        </article>
 
-          <article class="reader">
-            <div class="reader__header">
+        <article class="reader">
+          <div class="reader__header">
+            <img class="image" src="" alt="">
+            <div class="reader__info">
+              <p class="reader__name">Angeline Flora</p>
               <img class="image" src="" alt="">
-              <div class="reader__info">
-                <p class="reader__name">Chris Adams</p>
-                <img class="image" src="" alt="">
-              </div>
             </div>
-            <div class="reader__body">
-              <p class="reader__comment"><q>“ Perfect Response Author”</q></p>
-              <p class="reader__text">I had a question about the book and the author response was great & comfort.</p>
-            </div>
-          </article>
-
-          <article class="reader">
-            <div class="reader__header">
-              <img class="image" src="" alt="">
-              <div class="reader__info">
-                <p class="reader__name">Angeline Flora</p>
-                <img class="image" src="" alt="">
-              </div>
-            </div>
-            <div class="reader__body">
-              <p class="reader__comment"><q>“ Creative Writing Skill”</q></p>
-              <p class="reader__text">Sent an email after to books arrived to ask about the author & I received a reply.</p>
-            </div>
-          </article>
-        </div>
+          </div>
+          <div class="reader__body">
+            <p class="reader__comment"><q>“ Creative Writing Skill”</q></p>
+            <p class="reader__text">Sent an email after to books arrived to ask about the author & I received a reply.</p>
+          </div>
+        </article>
       </div>
     </div>
   </section>
 
-  <section class="source">
+  <section class="resource">
     <div class="container">
-      <h2 class="source__title">Articles & Resources</h2>
+      <h2 class="resource__title">Articles & Resources</h2>
       <hr>
-      <div class="flex">
-        <article class="card">
-          <div class="card__head">
+      <div class="wrapper">
+        <article class="card-resource">
+          <div class="card-resource__head">
             <img class="image" src="" alt="">
           </div>
-          <div class="card__body">
-            <p class="card__text--accent">Significant reading has more info number</p>
-            <p class="card__text">Override the digital divide with additional clickthroughs from DevOps for real-time schemas.</p>
+          <div class="card-resource__body">
+            <p class="card-resource__text--accent">Significant reading has more info number</p>
+            <p class="card-resource__text">Override the digital divide with additional clickthroughs from DevOps for real-time schemas.</p>
           </div>
-          <div class="card__footer">
-            <a class="card__link" href="#">Readmore</a>
-            <span class="card__date">October 6, 2021</span>
+          <div class="card-resource__footer">
+            <a class="link" href="#">Readmore</a>
+            <span class="card-resource__date">October 6, 2021</span>
           </div>
         </article>
 
-        <article class="card">
-          <div class="card__head">
+        <article class="card-resource">
+          <div class="card-resource__head">
             <img class="image" src="" alt="">
           </div>
-          <div class="card__body">
-            <p class="card__text--accent">Many variations of pass majority have suffered</p>
-            <p class="card__text">Capitalize on low-hanging fruit to identify a ballpark value-added activity to beta test.</p>
+          <div class="card-resource__body">
+            <p class="card-resource__text--accent">Many variations of pass majority have suffered</p>
+            <p class="card-resource__text">Capitalize on low-hanging fruit to identify a ballpark value-added activity to beta test.</p>
           </div>
-          <div class="card__footer">
-            <a class="card__link" href="#">Readmore</a>
-            <span class="card__date">October 6, 2021</span>
+          <div class="card-resource__footer">
+            <a class="link" href="#">Readmore</a>
+            <span class="card-resource__date">October 6, 2021</span>
           </div>
         </article>
 
-        <article class="card">
-          <div class="card__head">
+        <article class="card-resource">
+          <div class="card-resource__head">
             <img class="image" src="" alt="">
           </div>
-          <div class="card__body">
-            <p class="card__text--accent">Words which don't look even slightly believable</p>
-            <p class="card__text">Podcasting operational change management inside of workflows to establish a framework.</p>
+          <div class="card-resource__body">
+            <p class="card-resource__text--accent">Words which don't look even slightly believable</p>
+            <p class="card-resource__text">Podcasting operational change management inside of workflows to establish a framework.</p>
           </div>
-          <div class="card__footer">
-            <a class="card__link" href="#">Readmore</a>
-            <span class="card__date">October 6, 2021</span>
+          <div class="card-resource__footer">
+            <a class="link" href="#">Readmore</a>
+            <span class="card-resource__date">October 6, 2021</span>
           </div>
         </article>
       </div>
@@ -410,11 +404,11 @@
   </section>
 
   <section class="updates">
-    <div class="container">
-      <h2 class="updates__title">Get The Best Updates</h2>
+    <div class="container panel">
+      <h2 class="panel__title">Get The Best Updates</h2>
       <hr>
-      <p class="updates__text">Subscribe with your mail id to know the current update in book edition at your fingertip with in a minute.</p>
-      <form class="updates__form form" action="#">
+      <p class="panel__text">Subscribe with your mail id to know the current update in book edition at your fingertip with in a minute.</p>
+      <form class="panel__form form" action="#">
         <input class="form__email" type="email" placeholder="Your Email ID...">
         <button class="form__subscribe" type="submit">Subscribe</button>
       </form>
@@ -423,13 +417,13 @@
 </main>
 
 <footer class="footer">
-  <div class="container">
-    <div class="flex">
+  <div class="container wrapper">
       <div class="footer__social">
         <div class="logo">
           <img class="logo__image" src="#" alt="The Aythor's Book"></img>
           <span class="logo__text">Pages</span>
         </div>
+
         <div class="social">
           <a class="social__link" href="#"></a>
           <a class="social__link" href="#"></a>
@@ -477,9 +471,8 @@
           </tr>
         </table>
       </div>
-    </div>
 
-    <small class="copyright">&copy; Drafted by <span class="copyright-accent"> VictorFlow</span> - Powered by <span class="copyright-accent">Webflow</span></small>
+    <small class="copyright">&copy; Drafted by VictorFlow - Powered by Webflow</small>
   </div>
 </footer>
 </body>
