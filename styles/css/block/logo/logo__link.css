@@ -1,0 +1,12 @@
+
+.logo__link {
+  font-family: 'Intro', sans-serif;
+  font-size: var(--font-size-text--large);
+  font-weight: 700;
+  color: var(--white);
+  text-decoration: none;
+}
+
+.logo__link:hover {
+  text-decoration: underline;
+}

@@ -1,9 +1,20 @@
 
 @import url("./var/root.css");
 
-@import url("./block/page.css");
-@import url("./block/container.css");
-@import url("./block/header.css");
-@import url("./block/start.css");
+@import url("./block/page/page.css");
+@import url("./block/container/container.css");
+@import url("./block/header/header.css");
+@import url("./block/nav/nav.css");
+@import url("./block/logo/logo.css");
+@import url("./block/logo/logo__img.css");
+@import url("./block/logo/logo__link.css");
+@import url("./block/nav-social/nav-social.css");
+@import url("./block/nav-social/nav-social__link.css");
+@import url("./block/nav-social/nav-social__link-icon.css");
+@import url("./block/nav-site/nav-site.css");
+@import url("./block/nav-site/nav-site__link.css");
+@import url("./block/nav-site/nav-site__link--active.css");
+@import url("./block/link/link.css");
+@import url("./block/link/link--primary.css");
 
 /* @import url("./block/start.css"); */

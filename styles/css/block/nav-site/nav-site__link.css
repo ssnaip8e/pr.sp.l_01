@@ -1,0 +1,11 @@
+
+.nav-site__link {
+  font-family: "Inter", sans-serif;
+  font-size: var(--font-size-link);
+  text-decoration: none;
+  color: var(--white);
+}
+
+.nav-site__link:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,15 @@
+
+.nav-social__link {
+  display: inline-block;
+  height: 45px;
+  width: 45px;
+  background-color: var(--white);
+}
+
+.nav-social__link:hover {
+  background-color: var(--secondary);
+}
+
+.nav-social__link:not(.nav-social__link:last-child) {
+  margin-right: 8px;
+}

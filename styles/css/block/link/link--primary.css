@@ -1,0 +1,5 @@
+
+.link--primary {
+  color: var(--primary);
+  background-color: var(--secondary);
+}
