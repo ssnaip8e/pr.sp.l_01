@@ -1,0 +1,10 @@
+
+.page {
+  min-height: 100vh;
+  margin: 0;
+  font-family: 'Cardo', serif;
+  font-weight: @font-weight;
+  text-rendering: optimizeSpeed;
+  line-height: 1.4;
+  scroll-behavior: smooth;
+}
