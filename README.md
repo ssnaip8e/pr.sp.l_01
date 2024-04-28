@@ -1,8 +1,10 @@
-# project.site.author-book
+# project.single-page.others_01
+
+
 ## Сайт книг автора John Abraham
 
 Состав:
-+ Собран по макету с Figma
++ Собра по макету с Figma
 + Только Desktop-version
 + Применение методологии БЕМ
 + Применение структуры дерева папок и файлов по БЕМ
