@@ -1,11 +1,5 @@
-# project.single-page.others(01)
+> project.single-page.others(01)
 
+# Books John Abraham
+[figma](https://www.figma.com/file/vpj7vMoc370uQPjd55km1E/Pages-(Copy)?type=design&node-id=0-1&mode=design&t=MaMI8EZiZgqJYU8n-0)
 
-## Сайт книг автора John Abraham
-
-Состав:
-+ Собра по макету с Figma
-+ Только Desktop-version
-+ Применение методологии БЕМ
-+ Применение структуры дерева папок и файлов по БЕМ
-+ Применение переменных
